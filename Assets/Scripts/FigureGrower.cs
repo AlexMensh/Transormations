@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class FigureGrowing : MonoBehaviour
+public class FigureGrower : MonoBehaviour
 {
     [SerializeField] private float _speed;
 

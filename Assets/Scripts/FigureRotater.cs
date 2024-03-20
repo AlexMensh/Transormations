@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class FigureRotating : MonoBehaviour
+public class FigureRotater : MonoBehaviour
 {
     [SerializeField] private float _speed;
 

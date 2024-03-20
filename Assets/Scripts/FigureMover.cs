@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class FigureMoving : MonoBehaviour
+public class FigureMover : MonoBehaviour
 {
     [SerializeField] private float _speed;
 
@@ -8,6 +8,6 @@ public class FigureMoving : MonoBehaviour
     {
         Vector3 direction = transform.forward;
 
-        transform.Translate(direction * _speed * Time.deltaTime, Space.World);
+        transform.Translate(direction * _speed * Time.deltaTime);
     }
 }
